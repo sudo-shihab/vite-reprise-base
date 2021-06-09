@@ -1,9 +1,9 @@
-import { createApp } from 'vue'
-     import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
 
 // eslint-disable-next-line no-unused-vars
-const a = 'shihab'
+const a = 'shihab';
 // eslint-disable-next-line no-unused-vars
-const b = 9
+const b = 9;
 
-createApp(App).mount('#app')
+createApp(App).mount('#app');

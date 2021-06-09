@@ -1,32 +1,33 @@
 {
-  "name": "vite-sample-epa",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview",
-    "prepare": "husky install"
-  },
-  "dependencies": {
-    "vue": "^3.0.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.2.3",
-    "@vue/compiler-sfc": "^3.0.5",
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-vue": "^7.10.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^11.0.0",
-    "mrm": "^3.0.2",
-    "mrm-task-lint-staged": "^6.0.0",
-    "prettier": "^2.3.1",
-    "vite": "^2.3.7"
-  },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix"
-  }
+    "name": "vite-sample-epa",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "serve": "vite preview",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "vue": "^3.0.5"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^1.2.3",
+        "@vue/compiler-sfc": "^3.0.5",
+        "eslint": "^7.28.0",
+        "eslint-config-airbnb-base": "^14.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-vue": "^7.10.0",
+        "husky": "^6.0.0",
+        "lint-staged": "^11.0.0",
+        "mrm": "^3.0.2",
+        "mrm-task-lint-staged": "^6.0.0",
+        "prettier": "^2.3.1",
+        "vite": "^2.3.7"
+    },
+    "lint-staged": {
+        "*.js": "eslint --cache --fix",
+        "*.{js,css,md,vue,json,ts,tsx,jsx}": "prettier --write"
+    }
 }
