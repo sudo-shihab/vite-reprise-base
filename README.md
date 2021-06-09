@@ -1,6 +1,6 @@
 # Vite Base Reprise
 
-A Simple using `Vite` for scaffolding vue project .
+A Simple App using `Vite` for scaffolding vue project .
 
 ## Features
 
